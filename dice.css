@@ -1,0 +1,59 @@
+body{
+  margin: 0;
+  height: 100vh;
+  background: radial-gradient(circle at center, #006400, #013220);
+}
+#main{
+  padding-top:50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px red;
+}
+#title{
+  font-size:50px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color:rgb(68, 255, 0);
+  text-shadow:  -2px 0 black;
+}
+#input-number{
+  text-align: center;
+  height:34px;
+  margin-right:5px;
+}
+#container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+#value{
+  text-align: center;
+  color:white;
+}
+.dice-images{
+  height:80px;
+  border-radius: 10px;
+}
+#dice-display-images{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;               
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin-left: 400px;       
+}
+#value{
+  margin-bottom: 10px;
+}
+button{
+  font-family: sans-serif;
+  background-color: rgb(251, 31, 31);
+  font-weight: 600;
+  color: white;
+  border:none;
+  padding:10px 15px;
+}
